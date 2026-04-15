@@ -1,5 +1,11 @@
 {
-  "tbl_site": [
+    "urls": [
+       {
+          "url": "",
+          "name": "Carrey测试urls"
+        }
+     ],
+  "sites": [
     {
       "key": "量子资源",
       "name": "量子资源",
@@ -10,7 +16,10 @@
       "status": true,
       "isActive": true,
       "type": 1,
-      "id": "1"
+      "id": "1",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "非凡资源",
@@ -22,7 +31,10 @@
       "status": true,
       "isActive": true,
       "type": 1,
-      "id": "2"
+      "id": "2",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "快车资源",
@@ -35,7 +47,10 @@
       "isActive": true,
       "type": 1,
       "id": "4",
-      "search": 1
+      "search": 1,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "无尽资源",
@@ -47,11 +62,14 @@
       "status": true,
       "isActive": true,
       "type": 1,
-      "id": "5"
+      "id": "5",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "天空影院",
-      "name": "速播资源",
+      "name": "天空影院",
       "api": "https://subocj.com/api.php/provide/vod/at/json",
       "download": "",
       "jiexiUrl": "",
@@ -61,25 +79,15 @@
       "type": 1,
       "id": "6",
       "resource": 0,
-      "search": 1
+      "search": 1,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
-      "key": "影图影视",
-      "name": "魔爪资源",
-      "api": "https://mozhuazy.com/api.php/provide/vod/at/xml",
-      "download": "",
-      "jiexiUrl": "",
-      "group": "默认",
-      "status": true,
-      "isActive": true,
-      "type": 0,
-      "id": "8",
-      "resource": 27243,
-      "search": 1
-    },
+    
     {
       "key": "天堂资源",
-      "name": "极速资源",
+      "name": "天堂资源",
       "api": "https://jszyapi.com/api.php/provide/vod",
       "download": "",
       "jiexiUrl": "",
@@ -89,146 +97,10 @@
       "type": 1,
       "id": "12",
       "resource": 0,
-      "search": 1
-    },
-    {
-      "key": "樱花资源",
-      "name": "樱花资源",
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-      "download": "",
-      "jiexiUrl": "",
-      "group": "默认",
-      "status": true,
-      "isActive": true,
-      "type": 1,
-      "id": "18"
-    },
-    {
-      "key": "闪电资源",
-      "name": "闪电资源",
-      "api": "http://sdzyapi.com/api.php/provide/vod/",
-      "download": "",
-      "jiexiUrl": "",
-      "group": "默认",
-      "status": true,
-      "isActive": true,
-      "type": 1,
-      "id": "20"
-    },
-    {
-      "key": "红牛资源",
-      "name": "红牛资源",
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "download": "",
-      "jiexiUrl": "",
-      "group": "默认",
-      "status": true,
-      "isActive": true,
-      "type": 1,
-      "id": "22"
-    },
-    {
-      "name": "旺旺资源",
-      "api": "https://api.wwzy.tv/api.php/provide/vod/at/xml/?ac=list",
-      "playUrl": "",
-      "group": "默认",
       "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "a941d257-e6b6-4313-9d4c-b30f7151caf2",
-      "resource": 0
-    },
-    {
-      "name": "猫眼资源",
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "1d4c9364-ddac-4096-917c-9cb5d0afe2e8",
-      "resource": 0
-    },
-    {
-      "name": "百度资源",
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "c5dba7f4-7a15-47cf-9db5-9db23a098781"
-    },
-    {
-      "name": "暴风资源",
-      "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "1d2eadd3-bec2-480f-864c-333f10176c04",
-      "resource": 0
-    },
-    {
-      "name": "光速资源",
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "356f87a5-ceb9-4508-a20f-cbd809c50907",
-      "resource": 0
-    },
-    {
-      "name": "牛牛资源",
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "99533177-3d43-4eb3-9e9b-93f129704d8a",
-      "resource": 0
-    },
-    {
-      "name": "细胞资源",
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "9f29f177-03cc-416b-be7e-05cc4087c5f8",
-      "resource": 0
-    },
-    {
-      "name": "黄色仓库",
-      "api": "https://hsckzy888.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "c47ea063-628f-4060-ac66-a51a0ffd4069",
-      "resource": 0
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "name": "电影天堂",
@@ -241,11 +113,59 @@
       "ext": "",
       "categories": "",
       "id": "58d35ee8-6181-4655-ad13-9a442adea29f",
-      "resource": 0
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
-      "name": "大奶子资源",
-      "api": "https://apidanaizi.com/api.php/provide/vod/at/xml/",
+      "key": "樱花资源",
+      "name": "樱花资源",
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+      "download": "",
+      "jiexiUrl": "",
+      "group": "默认",
+      "status": true,
+      "isActive": true,
+      "type": 1,
+      "id": "18",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "闪电资源",
+      "name": "闪电资源",
+      "api": "http://sdzyapi.com/api.php/provide/vod/",
+      "download": "",
+      "jiexiUrl": "",
+      "group": "默认",
+      "status": true,
+      "isActive": true,
+      "type": 1,
+      "id": "20",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "红牛资源",
+      "name": "红牛资源",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "download": "",
+      "jiexiUrl": "",
+      "group": "默认",
+      "status": true,
+      "isActive": true,
+      "type": 1,
+      "id": "22",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "旺旺资源（短剧）",
+      "api": "https://api.wwzy.tv/api.php/provide/vod/at/xml/?ac=list",
       "playUrl": "",
       "group": "默认",
       "search": 1,
@@ -253,9 +173,92 @@
       "type": 0,
       "ext": "",
       "categories": "",
-      "id": "42747f68-1131-42c2-b2ca-a165f9633c88",
-      "resource": 0
+      "id": "a941d257-e6b6-4313-9d4c-b30f7151caf2",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
+    {
+      "name": "猫眼资源",
+      "api": "https://api.maoyanapi.top/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "1d4c9364-ddac-4096-917c-9cb5d0afe2e8",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "百度资源",
+      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "c5dba7f4-7a15-47cf-9db5-9db23a098781",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "暴风资源",
+      "api": "https://bfzyapi.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "1d2eadd3-bec2-480f-864c-333f10176c04",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "光速资源",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "356f87a5-ceb9-4508-a20f-cbd809c50907",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "牛牛资源",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "99533177-3d43-4eb3-9e9b-93f129704d8a",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
     {
       "name": "桃花视频",
       "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
@@ -267,8 +270,12 @@
       "ext": "",
       "categories": "",
       "id": "a08aa522-93be-4303-bfa6-3caeea0b709e",
-      "resource": 0
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
+
     {
       "name": "虎牙资源",
       "api": "https://www.huyaapi.com/api.php/provide/vod/at/json",
@@ -279,81 +286,10 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "1fab2907-7a0f-4b66-a1e0-879c1a8bf859"
-    },
-    {
-      "name": "淘片资源",
-      "api": "https://taopianapi.com/cjapi/sda/vod/json.html",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "f01cfbea-c361-47f1-831a-350d73f57d0a"
-    },
-    {
-      "name": "搜av资源",
-      "api": "https://api.souavzy.vip/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "f132be38-a50f-4e42-9a91-18b5bc5e48a1",
-      "resource": 0
-    },
-    {
-      "name": "滴滴资源",
-      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "26462f1a-ec20-480e-b331-4400624bb030"
-    },
-    {
-      "name": "色猫资源",
-      "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "210ab814-c64b-4869-9e2a-a717d3566cf3"
-    },
-    {
-      "name": "奶香香资源",
-      "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "9acba522-0bef-4a60-91d9-31fa5e14fdb7"
-    },
-    {
-      "name": "杏吧资源",
-      "api": "https://xingba222.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "69433902-e462-45d8-8396-6739a78c79ab",
-      "resource": 48925
+      "id": "1fab2907-7a0f-4b66-a1e0-879c1a8bf859",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "name": "金鹰云资源",
@@ -365,96 +301,12 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "e7a122f6-5f28-4e18-afc6-3d78c201b561"
+      "id": "e7a122f6-5f28-4e18-afc6-3d78c201b561",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
-      "name": "番号资源",
-      "api": "http://fhapi9.com/api.php/provide/vod/at/json/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "91dea055-8248-416b-b3b0-a158bc1dd6ca"
-    },
-    {
-      "name": "老色b资源",
-      "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "57274629-238f-4455-ac82-dd1179e1db5e"
-    },
-    {
-      "name": "gay资源",
-      "api": "https://gayapi.com/api.php/provide/vod/at/json",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": false,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "a98d9723-2226-4187-9521-64e392a44368"
-    },
-    {
-      "name": "森林资源",
-      "api": "https://slapibf.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "5dc5b89d-a212-4509-854e-44b509425777",
-      "resource": 0
-    },
-    {
-      "name": "乐播资源",
-      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "88575fc3-9715-4626-aa51-32e7b2d1641f",
-      "resource": 266219
-    },
-    {
-      "name": "155资源",
-      "api": "https://155api.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "8a051921-80bf-4219-9a51-758a8e7bc5a2"
-    },
-    {
-      "name": "桃花资源",
-      "api": "https://thzy1.me/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "168d5553-6698-43ec-bf0e-46bae8fc454a",
-      "resource": 0
-    },
-    {
+   {
       "name": "豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
       "playUrl": "",
@@ -464,9 +316,12 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "6f1ab26f-7a94-4215-b1ac-18ab71f89a74"
+      "id": "6f1ab26f-7a94-4215-b1ac-18ab71f89a74",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
+   {
       "name": "茅台资源",
       "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
       "playUrl": "",
@@ -476,7 +331,10 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "a22b76b8-41b7-4820-b52d-e37564f01e33"
+      "id": "a22b76b8-41b7-4820-b52d-e37564f01e33",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "name": "幸资源站",
@@ -489,21 +347,12 @@
       "ext": "",
       "categories": "",
       "id": "e7d8a4f2-0ed9-4186-98aa-30a5b5d7b2e2",
-      "resource": 0
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
-      "name": "牛牛资源",
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "5741334a-1c4e-47f8-9b01-3c405d6fa21c"
-    },
-    {
+  {
       "name": "猫眼资源",
       "api": "https://api.maoyanapi.top/api.php/provide/vod",
       "playUrl": "",
@@ -513,23 +362,14 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "e91d99ec-4561-4f95-ba67-e706d79e5777"
+      "id": "e91d99ec-4561-4f95-ba67-e706d79e5777",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
-      "name": "大地资源",
-      "api": "https://dadiapi.com/api.php",
-      "playUrl": "",
-      "group": "默认",
-      "search": 2,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "b8ae0bb1-bc54-4e0b-8a97-f02a23972d5d"
-    },
-    {
-      "name": "百万资源",
-      "api": " https://api.bwzyz.com/api.php/provide/vod/at/xml/",
+   {
+      "name": "牛牛资源",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/from/nnm3u8/at/xml",
       "playUrl": "",
       "group": "默认",
       "search": 1,
@@ -537,21 +377,12 @@
       "type": 0,
       "ext": "",
       "categories": "",
-      "id": "496085e6-4fdc-4dad-aa8e-dbba74a996f5"
+      "id": "5741334a-1c4e-47f8-9b01-3c405d6fa21c",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
-    {
-      "name": "CK伦理资源",
-      "api": "https://ckzy.me/api.php/provide/vod/at/xml/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "4bbd9534-820c-4cfa-9336-984de3918b8e"
-    },
-    {
+ {
       "name": "豆瓣资源",
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
       "playUrl": "",
@@ -562,20 +393,10 @@
       "ext": "",
       "categories": "",
       "id": "b1ef469c-15d7-459e-8faf-b139fab98d29",
-      "resource": 0
-    },
-    {
-      "name": "ikun资源",
-      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": false,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "f3f30e23-5715-4a87-96ed-62890ac2ae48",
-      "resource": 0
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "name": "旺旺资源",
@@ -587,7 +408,10 @@
       "type": 0,
       "ext": "",
       "categories": "",
-      "id": "e6149471-3145-471a-b3e4-ed38fd8315c5"
+      "id": "e6149471-3145-471a-b3e4-ed38fd8315c5",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "name": "金鹰资源",
@@ -600,10 +424,273 @@
       "ext": "",
       "categories": "",
       "id": "e51047c4-0741-44b9-9507-017ad1cc098e",
-      "resource": 82514
+      "resource": 82514,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+    {
+      "name": "细胞资源fm",
+      "api": "https://www.xxibaozyw.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "9f29f177-03cc-416b-be7e-05cc4087c5f8",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
-      "name": "CK百货",
+      "name": "仓库集合s",
+      "api": "https://hsckzy888.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "c47ea063-628f-4060-ac66-a51a0ffd4069",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+    {
+      "name": "资源多多fm",
+      "api": "https://apidanaizi.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "42747f68-1131-42c2-b2ca-a165f9633c88",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+        {
+      "name": "搜搜资源s",
+      "api": "https://api.souavzy.vip/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "f132be38-a50f-4e42-9a91-18b5bc5e48a1",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+
+  
+    {
+      "name": "滴滴资源m",
+      "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "26462f1a-ec20-480e-b331-4400624bb030",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+  
+    {
+      "name": "香香资源fm",
+      "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "9acba522-0bef-4a60-91d9-31fa5e14fdb7",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "杏吧资源m",
+      "api": "https://xingba222.com/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "69433902-e462-45d8-8396-6739a78c79ab",
+      "resource": 48925,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+    {
+      "name": "番号资源m",
+      "api": "http://fhapi9.com/api.php/provide/vod/at/json/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "91dea055-8248-416b-b3b0-a158bc1dd6ca",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "老A资源fm",
+      "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "57274629-238f-4455-ac82-dd1179e1db5e",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    
+    {
+      "name": "乐播资源fm",
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "88575fc3-9715-4626-aa51-32e7b2d1641f",
+      "resource": 266219,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "155资源m",
+      "api": "https://155api.com/api.php/provide/vod/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 1,
+      "ext": "",
+      "categories": "",
+      "id": "8a051921-80bf-4219-9a51-758a8e7bc5a2",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "桃花资源fm",
+      "api": "https://thzy1.me/api.php/provide/vod/at/xml",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "168d5553-6698-43ec-bf0e-46bae8fc454a",
+      "resource": 0,
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+ 
+ 
+ 
+  
+    {
+      "name": "大地资源s",
+      "api": "https://dadiapi.com/api.php",
+      "playUrl": "",
+      "group": "默认",
+      "search": 2,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "b8ae0bb1-bc54-4e0b-8a97-f02a23972d5d",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "百万资源s",
+      "api": " https://api.bwzyz.com/api.php/provide/vod/at/xml/",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "496085e6-4fdc-4dad-aa8e-dbba74a996f5",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "name": "有理资源f",
+      "api": "https://ckzy.me/api.php/provide/vod/at/xml/?ac=list",
+      "playUrl": "",
+      "group": "默认",
+      "search": 1,
+      "isActive": true,
+      "type": 0,
+      "ext": "",
+      "categories": "",
+      "id": "4bbd9534-820c-4cfa-9336-984de3918b8e",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+   
+    {
+      "name": "百货资源fm",
       "api": "https://ckbh1.xyz/api.php/provide/vod/?ac=list",
       "playUrl": "",
       "group": "默认",
@@ -612,31 +699,18 @@
       "type": 1,
       "ext": "",
       "categories": "",
-      "id": "a2bf0426-4ca6-4e37-b928-f121e5001491"
-    },
-    {
-      "name": "最色资源",
-      "api": "https://api.zuiseapi.com/api.php/provide/vod/?ac=list",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 1,
-      "ext": "",
-      "categories": "",
-      "id": "cfc9c673-fc5e-4a3e-8060-555523d53366"
-    },
-    {
-      "name": "91资源",
-      "api": "https://91jpzyw.com/api.php/provide/vod/at/xml",
-      "playUrl": "",
-      "group": "默认",
-      "search": 1,
-      "isActive": true,
-      "type": 0,
-      "ext": "",
-      "categories": "",
-      "id": "af82ec30-c945-473a-92b8-bf0d7adc0167"
+      "id": "a2bf0426-4ca6-4e37-b928-f121e5001491",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+   
+  ],
+    "parses": [
+        {
+          "name": "默认解析",
+          "type": 1,
+          "url": "https://默认解析接口地址/?url="
     }
   ]
 }
